@@ -6,6 +6,7 @@ import Marquee from './components/Marquee';
 import Manifesto from './components/Manifesto';
 import TechMarquee from './components/TechMarquee';
 import Services from './components/Services';
+import Projects from './components/Projects';
 
 function App() {
   const [lightMode, setLightMode] = useState(false);
@@ -130,9 +131,11 @@ function App() {
       <Manifesto />
       <TechMarquee />
       <Services />
+      <Projects />
     </div>
   );
 }
+
 
 
 
