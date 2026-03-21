@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import Loader from './components/Loader';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Marquee from './components/Marquee';
+import Manifesto from './components/Manifesto';
 
 function App() {
   const [lightMode, setLightMode] = useState(false);
@@ -107,6 +109,9 @@ function App() {
         greetingRef={greetingRef} 
         blobRef={blobRef} 
       />
+
+      <Marquee />
+      <Manifesto />
     </div>
   );
 }
