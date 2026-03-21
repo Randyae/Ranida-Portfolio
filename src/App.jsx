@@ -9,6 +9,7 @@ import Services from './components/Services';
 import Projects from './components/Projects';
 import GetToKnowMe from './components/GetToKnowMe';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const [lightMode, setLightMode] = useState(false);
@@ -136,6 +137,7 @@ function App() {
       <Projects />
       <GetToKnowMe />
       <Contact />
+      <Footer />
     </div>
   );
 }
