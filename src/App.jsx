@@ -8,6 +8,7 @@ import TechMarquee from './components/TechMarquee';
 import Services from './components/Services';
 import Projects from './components/Projects';
 import GetToKnowMe from './components/GetToKnowMe';
+import Contact from './components/Contact';
 
 function App() {
   const [lightMode, setLightMode] = useState(false);
@@ -134,6 +135,7 @@ function App() {
       <Services />
       <Projects />
       <GetToKnowMe />
+      <Contact />
     </div>
   );
 }
