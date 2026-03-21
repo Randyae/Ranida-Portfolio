@@ -7,6 +7,7 @@ import Manifesto from './components/Manifesto';
 import TechMarquee from './components/TechMarquee';
 import Services from './components/Services';
 import Projects from './components/Projects';
+import GetToKnowMe from './components/GetToKnowMe';
 
 function App() {
   const [lightMode, setLightMode] = useState(false);
@@ -132,9 +133,11 @@ function App() {
       <TechMarquee />
       <Services />
       <Projects />
+      <GetToKnowMe />
     </div>
   );
 }
+
 
 
 
