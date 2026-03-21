@@ -86,9 +86,23 @@ function App() {
     window.addEventListener('scroll', handleScroll, { passive: true });
     handleScroll();
 
+    // ── REVEAL OBSERVER ────────────────────────────────
+    const revealObs = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) {
+          e.target.classList.add('in');
+          revealObs.unobserve(e.target);
+        }
+      });
+    }, { threshold: .07 });
+
+    document.querySelectorAll('.rv, .rv2').forEach((el) => revealObs.observe(el));
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
+      revealObs.disconnect();
     };
+
   }, []);
 
   useEffect(() => {
