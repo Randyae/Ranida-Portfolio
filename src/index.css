@@ -446,33 +446,34 @@ body.light .blob {
   align-items: center;
   width: max-content;
   white-space: nowrap;
-  animation: mqRoll 28s linear infinite;
+  animation: mqRoll 35s linear infinite;
   padding: 1.5rem 0;
 }
 
 .tech-mq-item {
   display: flex;
   align-items: center;
-  padding: 0 2rem;
+  padding: 0 2.5rem;
   flex-shrink: 0;
+  transition: transform 0.4s ease;
 }
 
+
 .tech-mq-item svg {
-  width: 40px;
-  height: 40px;
+  width: 75px;
+  height: 75px;
   flex-shrink: 0;
-  transition: transform 0.3s ease;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .tech-mq-item:hover svg {
-  transform: scale(1.15);
+  transform: scale(1.1);
 }
 
 .tech-mq-sep {
   color: var(--acc);
-  padding: 0 1rem;
-  font-size: 0.8rem;
-  opacity: 0.4;
+  padding: 0 2rem;
+  font-size: 1.2rem;
 }
 
 

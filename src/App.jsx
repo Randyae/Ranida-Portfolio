@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Marquee from './components/Marquee';
 import Manifesto from './components/Manifesto';
+import TechMarquee from './components/TechMarquee';
+import Services from './components/Services';
 
 function App() {
   const [lightMode, setLightMode] = useState(false);
@@ -126,8 +128,12 @@ function App() {
 
       <Marquee />
       <Manifesto />
+      <TechMarquee />
+      <Services />
     </div>
   );
 }
+
+
 
 export default App;
