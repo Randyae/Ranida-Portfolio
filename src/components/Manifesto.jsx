@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import profileImg from '../assets/profile.jpg';
 
 const Manifesto = () => {
-  const [years, setYears] = useState(0);
-  const [projects, setProjects] = useState(0);
+  const [years, setYears] = useState(1);
+  const [projects, setProjects] = useState(1);
   const sectionRef = useRef(null);
   const photoRef = useRef(null);
   const hasAnimated = useRef(false);
@@ -43,8 +43,8 @@ const Manifesto = () => {
     const observer = new IntersectionObserver((entries) => {
       if (entries[0].isIntersecting && !hasAnimated.current) {
         hasAnimated.current = true;
-        animateValue(setYears, 0, 2, 1600);
-        animateValue(setProjects, 0, 5, 2000);
+        animateValue(setYears, 1, 2, 1600);
+        animateValue(setProjects, 1, 5, 2000);
       }
     }, { threshold: 0.4 });
 
