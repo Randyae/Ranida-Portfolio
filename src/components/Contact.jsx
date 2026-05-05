@@ -26,7 +26,7 @@ const Contact = () => {
           <a href="mailto:ranidaperera1@gmail.com">ranidaperera1@<br/>gmail.com</a>
         </div>
         <div className="contact-big-links">
-          <a href="https://github.com/RandyNutzz" target="_blank" rel="noopener noreferrer">GitHub &#8599;</a>
+          <a href="https://github.com/Randyae" target="_blank" rel="noopener noreferrer">GitHub &#8599;</a>
           <a href="https://www.linkedin.com/in/ranida-perera" target="_blank" rel="noopener noreferrer">LinkedIn &#8599;</a>
         </div>
       </div>
