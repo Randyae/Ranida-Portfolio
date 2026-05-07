@@ -35,7 +35,7 @@ const Projects = () => {
             title="Flap Yourself" 
             sub="HTML · CSS · JS" 
             img={flapImg} 
-            link="https://randynutzz.github.io/flap-yourself/"
+            link="https://randyae.github.io/flap-yourself/"
             delay="rv d1"
           />
           <ProjectCard 
