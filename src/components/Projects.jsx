@@ -42,7 +42,7 @@ const Projects = () => {
             title="Estate Agent Search" 
             sub="React Native · CSS · HTML · JS" 
             img={estateImg} 
-            link="https://randynutzz.github.io/estate-agent-react/"
+            link="https://randyae.github.io/estate-agent-react/"
             delay="rv d2"
           />
         </div>
